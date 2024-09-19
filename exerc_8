@@ -1,0 +1,55 @@
+#Ex8
+alt = float(input("Qual a altura do desenho? "))
+larg = float(input("Qual a largura do desenho? "))
+tinta_m2 = float(input("Em média, quantos litros usa por metro quadrado? "))
+#a + b
+area = alt * larg
+perimimetro = alt + alt + larg + larg #2*alt + 2*larg
+#c
+tinta = tinta_m2 * area
+print(f"Joana, você vai gastar {tinta} para pintar uma \
+area de {area} metros quadrados cujo perimetro é {perimetro} metros")
+'''
+'''#Ex9
+preco = float(input("Qual o valor do artigo que deseja comprar? "))
+desconto = int(input("qual o valor inteiro do desconto?")) / 100 #converter ja
+pfinal = preco - (desconto * preco)
+print(f"Para o preço inicial de {preco:.2f}€, aplicado um desconto de {desconto*100}%\
+terá que pagar {pfinal:.2f}€")
+'''
+'''#Ex10
+#versao1
+print("Insira as suas cinco notas:\n")
+v1, v2, v3, v4, v5 = int(input()),int(input()),int(input()),int(input()),int(input())
+media = (v1 + v2 + v3 + v4 + v5) / 5
+if media < 10:
+    print(f"Com a média de {media:.1f} a sua classificação é Mausss!")
+elif media < 14:
+    print(f"Com a média de {media:.1f} a sua classificação é Mediana!")
+elif media <= 18:
+    print(f"Com a média de {media:.1f} a sua classificação é Boommom!")
+else:
+    print(f"Com a média de {media:.1f} a sua classificação é Muuuuito Bom!")
+'''
+#Ex10
+#versao2
+'''
+soma = 0
+conta = 5
+while conta > 0 
+    valor = int(input("Insira um valor adequado:"))
+    soma = soma + valor
+    conta = conta - 1
+'''
+'''
+conta = 1
+while conta <= 5 
+    valor = int(input("Insira um valor:"))
+    soma = soma + valor
+    conta = conta + 1
+'''
+range(0:5) #intervalo entre 0 e 5 ou seja {0, 1, 2, 3, 4} ou seja quantas vezes quero repetir
+for conta in range (0:5):
+    valor = int(input("Insira um valor:"))
+    soma = soma + valor
+media = soma / 5
