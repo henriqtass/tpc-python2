@@ -1,0 +1,18 @@
+#Ex1
+#nome = input("Escreva o seu nome ou a forma como gostaria de ser chamado: ")
+#apelido = ("Insira o seu sobrenome: ")
+#print(f"Olá, {nome} {apelido}!!")
+
+#Ex2
+#dia = input("Qual o Dia em que nasceu? ")
+#mes = input("E o Mês? ")
+#ano =input("Em que Ano nasceu? ")
+#print(f"Você nasceu no dia {dia} de {mes} do ano {ano}")
+
+#Ex3
+v1 = float(input("Insira um valor: "))
+v2 = float(input("Indique um outro valor: "))
+
+soma= v1 + v2
+
+print(f"{v1} + {v2} = {soma}")
